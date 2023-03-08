@@ -25,6 +25,10 @@ PerformanceStatistics = [
 def hello_world():
     return render_template("home.html", data=PerformanceStatistics)
 
+@app.route("/assessment.html")
+def assessment():
+    return render_template("assessment.html", data=PerformanceStatistics)
+
 @app.route("/performancestatistics")
 def list_data():
   return jsonify(PerformanceStatistics)

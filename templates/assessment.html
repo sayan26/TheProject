@@ -1,0 +1,60 @@
+<!DOCTYPE.HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Let's Measure Performance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mt-2 mb-4">Performance Assessment</h1>
+      <h4 class="mt-2 mb-4">Basic Information</h4>
+    <form>
+  <div class="mb-3">
+    <input input class="form-control form-control-lg mt-2 mb-4" type="text" placeholder="Application Name" aria-label=".form-control-lg example">
+  </div>
+  <div class="mb-3">
+    <select class="form-select mt-2 mb-4" aria-label="Default select example">
+  <option selected>Is the application live in production</option>
+  <option value="1">Yes</option>
+  <option value="2">No</option>
+</select>
+  </div>
+  </form>
+      <h4 class="mt-2 mb-4">Usage Pattern</h4>
+      <form>
+  <div class="mb-3">
+    <input input class="form-control form-control-lg mt-2 mb-4" type="text" placeholder="How many users have access to the system?" aria-label=".form-control-lg example">
+    <input input class="form-control form-control-lg mt-2 mb-4" type="text" placeholder="How many logged in users can be there in the system during peak hour?" aria-label=".form-control-lg example">
+    <input input class="form-control form-control-lg mt-2 mb-4" type="text" placeholder="How many business transactions an user would perform in a day?" aria-label=".form-control-lg example">
+    <input input class="form-control form-control-lg mt-2 mb-4" type="text" placeholder="Does the application have any batch job or background process running?" aria-label=".form-control-lg example">
+    <input input class="form-control form-control-lg mt-2 mb-4" type="text" placeholder="Is the application accessed by global users?" aria-label=".form-control-lg example">
+  </div>
+      </form> 
+      <h4 class="mt-2 mb-4">Web Server</h4>
+      <form>
+  <div class="mb-3">
+    <input input class="form-control form-control-lg mt-2 mb-4" type="text" placeholder="Software" aria-label=".form-control-lg example">
+    <input input class="form-control form-control-lg mt-2 mb-4" type="text" placeholder="Operating System" aria-label=".form-control-lg example">
+    <input input class="form-control form-control-lg mt-2 mb-4" type="text" placeholder="Make" aria-label=".form-control-lg example">
+    <input input class="form-control form-control-lg mt-2 mb-4" type="text" placeholder="Number of Servers" aria-label=".form-control-lg example">
+    <input input class="form-control form-control-lg mt-2 mb-4" type="text" placeholder="CPUs per Server" aria-label=".form-control-lg example">
+  </div>
+      </form> 
+      <h4 class="mt-2 mb-4">Load Balancer</h4>
+      <form>
+  <div class="mb-3">
+    <input input class="form-control form-control-lg mt-2 mb-4" type="text" placeholder="Is there a Load Balancer" aria-label=".form-control-lg example">
+    <input input class="form-control form-control-lg mt-2 mb-4" type="text" placeholder="If yes then what is the Load Balancing Method" aria-label=".form-control-lg example">
+    <input input class="form-control form-control-lg mt-2 mb-4" type="text" placeholder="Is IP Sticking enabled" aria-label=".form-control-lg example">
+  </div>
+      </form> 
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </body>
+</html>

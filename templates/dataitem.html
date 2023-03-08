@@ -1,0 +1,8 @@
+<div class="row">
+        {% for systemdata in data %}
+          <div class = "col-4">
+            <h4>{{systemdata['title']}}</h4>
+            <p class="lead">{{systemdata['subject']}}</p>
+          </div>
+        {% endfor %}
+      </div>

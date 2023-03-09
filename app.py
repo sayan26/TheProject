@@ -25,9 +25,9 @@ PerformanceStatistics = [
 def hello_world():
     return render_template("home.html", data=PerformanceStatistics)
 
-@app.route("/assessment.html")
+@app.route("/assessment")
 def assessment():
-    return render_template("assessment.html", data=PerformanceStatistics)
+    return render_template("assessment.html")
 
 @app.route("/performancestatistics")
 def list_data():

@@ -14,6 +14,7 @@
     </style>
   </head>
   <body>
+    {% include 'navbar.html' %}
     <div class="container">
     <h1 class="text-center mt-2 mb-4">The Project</h1>
     <img class="img-fluid mt-2 mb-4" id="banner" src="static/banner.jpg">
@@ -25,8 +26,9 @@
       <h2 class="text-center mt-2 mb-4">Data</h2>
       {% include 'dataitem.html' %}
     <div style="text-align:center">
-    <button class="btn btn-outline-success mt-2 mb-4" ><a href="assessment.html">Take Assessment Now</a></button>
+    <button class="btn btn-outline-success mt-2 mb-4" ><a href="assessment">Take Assessment Now</a></button>
     </div>
+      {% include 'footer.html' %}
     </div>
   </body>
 </html>
